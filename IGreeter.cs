@@ -2,6 +2,6 @@ namespace SampleASPCore
 {
     public interface IGreeter
     {
-        public string GreetingMessage();
+        public string GreetingMessageOfTheDay();
     }   
 }

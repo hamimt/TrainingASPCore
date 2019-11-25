@@ -21,7 +21,8 @@ namespace SampleASPCore
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         // Middleware
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IConfiguration config)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, 
+            IConfiguration config, IGreeter greeter)
         {
             if (env.IsDevelopment())
             {
@@ -35,7 +36,7 @@ namespace SampleASPCore
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello World Hamim!");
+                    await context.Response.WriteAsync(greeter.GreetingMessageOfTheDay());
                 });
             });
         }
