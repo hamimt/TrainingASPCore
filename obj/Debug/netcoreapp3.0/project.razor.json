@@ -14342,6 +14342,17 @@
     "CSharpLanguageVersion": 800
   },
   "RootNamespace": "SampleASPCore",
-  "Documents": [],
+  "Documents": [
+    {
+      "FilePath": "d:\\Development\\Training\\SampleASPCore\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Development\\Training\\SampleASPCore\\Views\\Home\\Triangle.cshtml",
+      "TargetPath": "Views\\Home\\Triangle.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
   "SerializationFormat": "0.2"
 }

@@ -1,0 +1,21 @@
+
+@{
+    ViewData["Title"] = "Index";
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Home View</title>
+</head>
+<body>
+    <h1>Triangle</h1>
+    <form action="/Home/Triangle" method="GET">
+        <input type="text" name="alas" value="@ViewBag.Alas" /><br/>
+        <input type="text" name="tinggi" value="@ViewBag.Tinggi" /><br/>
+        <input type="text" name="result" value="@ViewBag.Result" /><br/>
+        <input type="submit" value="Calculate" />
+    </form>
+</body>
+</html>
