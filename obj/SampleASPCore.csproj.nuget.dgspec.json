@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Development\\Training\\SampleASPCore\\SampleASPCore.csproj": {}
+    "D:\\Development\\TrainingProject\\TrainingASPCore\\SampleASPCore.csproj": {}
   },
   "projects": {
-    "D:\\Development\\Training\\SampleASPCore\\SampleASPCore.csproj": {
+    "D:\\Development\\TrainingProject\\TrainingASPCore\\SampleASPCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Development\\Training\\SampleASPCore\\SampleASPCore.csproj",
+        "projectUniqueName": "D:\\Development\\TrainingProject\\TrainingASPCore\\SampleASPCore.csproj",
         "projectName": "SampleASPCore",
-        "projectPath": "D:\\Development\\Training\\SampleASPCore\\SampleASPCore.csproj",
-        "packagesPath": "C:\\Users\\hamim.tohari\\.nuget\\packages\\",
-        "outputPath": "D:\\Development\\Training\\SampleASPCore\\obj\\",
+        "projectPath": "D:\\Development\\TrainingProject\\TrainingASPCore\\SampleASPCore.csproj",
+        "packagesPath": "C:\\Users\\hamim\\.nuget\\packages\\",
+        "outputPath": "D:\\Development\\TrainingProject\\TrainingASPCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\hamim.tohari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hamim\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
