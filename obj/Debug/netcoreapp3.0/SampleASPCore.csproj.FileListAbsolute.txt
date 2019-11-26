@@ -119,3 +119,8 @@ D:\Development\Training\SampleASPCore\obj\Debug\netcoreapp3.0\Razor\Views\Home\I
 D:\Development\Training\SampleASPCore\obj\Debug\netcoreapp3.0\SampleASPCore.RazorTargetAssemblyInfo.cs
 D:\Development\Training\SampleASPCore\obj\Debug\netcoreapp3.0\SampleASPCore.Views.pdb
 D:\Development\Training\SampleASPCore\obj\Debug\netcoreapp3.0\Razor\Views\Home\Triangle.cshtml.g.cs
+D:\Development\Training\SampleASPCore\obj\Debug\netcoreapp3.0\Razor\Views\Restaurant\Index.cshtml.g.cs
+D:\Development\Training\SampleASPCore\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_layout.cshtml.g.cs
+D:\Development\Training\SampleASPCore\obj\Debug\netcoreapp3.0\Razor\Views\_ViewStart.cshtml.g.cs
+D:\Development\Training\SampleASPCore\obj\Debug\netcoreapp3.0\Razor\Views\_ViewImports.cshtml.g.cs
+D:\Development\Training\SampleASPCore\obj\Debug\netcoreapp3.0\Razor\Views\Restaurant\Details.cshtml.g.cs

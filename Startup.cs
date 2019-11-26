@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using SampleASPCore.Services;
 
 namespace SampleASPCore
 {
@@ -19,13 +20,13 @@ namespace SampleASPCore
         {
             services.AddControllersWithViews(); 
             services.AddRazorPages();
-            services.AddSingleton<IGreeter, Greeter>();
+            services.AddSingleton<IRestaurantData, InMemoryRestaurantData>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         // Middleware
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, 
-            IConfiguration config, IGreeter greeter)
+            IConfiguration config)
         {
             if (env.IsDevelopment())
             {
@@ -33,6 +34,7 @@ namespace SampleASPCore
             }
 
             app.UseHttpsRedirection();
+            app.UseStaticFiles();
             app.UseRouting();
 
             app.UseEndpoints(endpoints =>

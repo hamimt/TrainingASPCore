@@ -12,9 +12,26 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
+#nullable restore
+#line 1 "D:\Development\Training\SampleASPCore\Views\_ViewImports.cshtml"
+using SampleASPCore;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 2 "D:\Development\Training\SampleASPCore\Views\_ViewImports.cshtml"
+using SampleASPCore.Models;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a528ab78fe11d1e105fd4088ab133976234686ff", @"/Views/Home/Triangle.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c1d333f8d5d686f7d92ce436d3ba3663d9a602e0", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Triangle : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
+        private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("action", new global::Microsoft.AspNetCore.Html.HtmlString("/Home/Triangle"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
+        private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_1 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("method", "GET", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
         #line hidden
         #pragma warning disable 0649
         private global::Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext __tagHelperExecutionContext;
@@ -37,6 +54,8 @@ namespace AspNetCore
         }
         private global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.HeadTagHelper __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_HeadTagHelper;
         private global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.BodyTagHelper __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_BodyTagHelper;
+        private global::Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper __Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper;
+        private global::Microsoft.AspNetCore.Mvc.TagHelpers.RenderAtEndOfFormTagHelper __Microsoft_AspNetCore_Mvc_TagHelpers_RenderAtEndOfFormTagHelper;
         #pragma warning disable 1998
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
@@ -50,7 +69,7 @@ namespace AspNetCore
 #line hidden
 #nullable disable
             WriteLiteral("<!DOCTYPE html>\r\n\r\n<html>\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a528ab78fe11d1e105fd4088ab133976234686ff2926", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a528ab78fe11d1e105fd4088ab133976234686ff4360", async() => {
                 WriteLiteral("\r\n    <meta name=\"viewport\" content=\"width=device-width\" />\r\n    <title>Home View</title>\r\n");
             }
             );
@@ -64,9 +83,11 @@ namespace AspNetCore
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a528ab78fe11d1e105fd4088ab133976234686ff3989", async() => {
-                WriteLiteral("\r\n    <h1>Triangle</h1>\r\n    <form action=\"/Home/Triangle\" method=\"GET\">\r\n        <input type=\"text\" name=\"alas\"");
-                BeginWriteAttribute("value", " value=\"", 294, "\"", 315, 1);
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a528ab78fe11d1e105fd4088ab133976234686ff5423", async() => {
+                WriteLiteral("\r\n    <h1>Triangle</h1>\r\n    ");
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a528ab78fe11d1e105fd4088ab133976234686ff5710", async() => {
+                    WriteLiteral("\r\n        <input type=\"text\" name=\"alas\"");
+                    BeginWriteAttribute("value", " value=\"", 294, "\"", 315, 1);
 #nullable restore
 #line 15 "D:\Development\Training\SampleASPCore\Views\Home\Triangle.cshtml"
 WriteAttributeValue("", 302, ViewBag.Alas, 302, 13, false);
@@ -74,9 +95,9 @@ WriteAttributeValue("", 302, ViewBag.Alas, 302, 13, false);
 #line default
 #line hidden
 #nullable disable
-                EndWriteAttribute();
-                WriteLiteral(" /><br/>\r\n        <input type=\"text\" name=\"tinggi\"");
-                BeginWriteAttribute("value", " value=\"", 366, "\"", 389, 1);
+                    EndWriteAttribute();
+                    WriteLiteral(" /><br/>\r\n        <input type=\"text\" name=\"tinggi\"");
+                    BeginWriteAttribute("value", " value=\"", 366, "\"", 389, 1);
 #nullable restore
 #line 16 "D:\Development\Training\SampleASPCore\Views\Home\Triangle.cshtml"
 WriteAttributeValue("", 374, ViewBag.Tinggi, 374, 15, false);
@@ -84,9 +105,9 @@ WriteAttributeValue("", 374, ViewBag.Tinggi, 374, 15, false);
 #line default
 #line hidden
 #nullable disable
-                EndWriteAttribute();
-                WriteLiteral(" /><br/>\r\n        <input type=\"text\" name=\"result\"");
-                BeginWriteAttribute("value", " value=\"", 440, "\"", 463, 1);
+                    EndWriteAttribute();
+                    WriteLiteral(" /><br/>\r\n        <input type=\"text\" name=\"result\"");
+                    BeginWriteAttribute("value", " value=\"", 440, "\"", 463, 1);
 #nullable restore
 #line 17 "D:\Development\Training\SampleASPCore\Views\Home\Triangle.cshtml"
 WriteAttributeValue("", 448, ViewBag.Result, 448, 15, false);
@@ -94,8 +115,25 @@ WriteAttributeValue("", 448, ViewBag.Result, 448, 15, false);
 #line default
 #line hidden
 #nullable disable
-                EndWriteAttribute();
-                WriteLiteral(" /><br/>\r\n        <input type=\"submit\" value=\"Calculate\" />\r\n    </form>\r\n");
+                    EndWriteAttribute();
+                    WriteLiteral(" /><br/>\r\n        <input type=\"submit\" value=\"Calculate\" />\r\n    ");
+                }
+                );
+                __Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper>();
+                __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper);
+                __Microsoft_AspNetCore_Mvc_TagHelpers_RenderAtEndOfFormTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.RenderAtEndOfFormTagHelper>();
+                __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_RenderAtEndOfFormTagHelper);
+                __tagHelperExecutionContext.AddHtmlAttribute(__tagHelperAttribute_0);
+                __Microsoft_AspNetCore_Mvc_TagHelpers_FormTagHelper.Method = (string)__tagHelperAttribute_1.Value;
+                __tagHelperExecutionContext.AddTagHelperAttribute(__tagHelperAttribute_1);
+                await __tagHelperRunner.RunAsync(__tagHelperExecutionContext);
+                if (!__tagHelperExecutionContext.Output.IsContentModified)
+                {
+                    await __tagHelperExecutionContext.SetOutputContentAsync();
+                }
+                Write(__tagHelperExecutionContext.Output);
+                __tagHelperExecutionContext = __tagHelperScopeManager.End();
+                WriteLiteral("\r\n");
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_BodyTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.BodyTagHelper>();
